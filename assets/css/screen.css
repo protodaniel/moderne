@@ -714,6 +714,12 @@ article {
 .site-head .verticle {
   display: table-cell;
   vertical-align: middle;
+  padding: 0 10px;
+}
+.site-head .verticle img{
+  max-width: 100%;
+  -webkit-filter: drop-shadow(0 0 10px #000);
+  filter: drop-shadow(0 0 10px #000);
 }
 .site-head .blog-logo {
   max-height: 100px;
