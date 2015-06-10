@@ -756,6 +756,11 @@ article {
   display: table-cell;
   vertical-align: middle;
 }
+.site-page-head .verticle img{
+  max-width: 100%;
+  -webkit-filter: drop-shadow(0 0 10px #000);
+  filter: drop-shadow(0 0 10px #000);
+}
 .site-page-head .blog-title-link {
   max-height: 120px;
   display: inline-block;
